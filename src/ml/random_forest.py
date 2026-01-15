@@ -7,6 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold, GridSearchCV, RandomizedSearchCV, cross_validate
 
+
 def random_forest():
 
     # load dataset
@@ -88,5 +89,6 @@ def main() -> int:
 
 
 if __name__ == '__main__':
+
     sys.exit(main())
 
